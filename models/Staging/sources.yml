@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: raw
+    database: food-hungama
+    schema: raw_dataset
+    tables:
+      - name: AdventureWorks_Sales
+      - name: AdventureWorks_Returns
+      - name: AdventureWorks_Products
+      - name: AdventureWorks_Territories
+      - name: AdventureWorks_Customers
